@@ -1,7 +1,7 @@
-import java.util.ArrayList
+import java.util.*;
 
 public class DotComBust {
-    private Gamehelper helper = new GameHelper();
+    private GameHelper helper = new GameHelper();
     private ArrayList<DotCom> dotComsList = new ArrayList<DotCom>();
     private int numOfGuesses = 0;
 
@@ -17,7 +17,7 @@ public class DotComBust {
         dotComsList.add(two);
         dotComsList.add(three);
 
-        System.out.println("Ваша цель - потопить три "сайта".");
+        System.out.println("Ваша цель - потопить три сайта.");
         System.out.println("Cuptorul.md, Cuptorul-fermecat.md, Foxterrier.md");
         System.out.println("Попытайтесь потопить их за минимальное количество ходов");
 
